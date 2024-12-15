@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./img/mission.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://kit.fontawesome.com/3580b42f58.js" crossorigin="anonymous"></script>
+    <title>Map - Portfolio</title>
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div>
+        <input type="checkbox" id="checkbox" class="checkbox">
+        <label for="checkbox" class="label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="topnav">
+        <div class="topnav-logo">
+            <a href="index.html"><img src="./img/map-logo.png" alt="Map Logo"></a>
+        </div>
+        <div class="topnav-link">
+            <a href="#section-skills"><span class="gradient-text"><i class="fa-solid fa-laptop-code"></i></span></a>
+            <a href="#section-mission"><span class="gradient-text"><i class="fa-solid fa-rocket"></i></span></a>
+            <a href="#section-about"><span class="gradient-text"><i class="fa-solid fa-address-card"></i></span></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="home">
+        <!-- Hero Section -->
+        <section class="home-hero">
+            <div class="hero-content">
+                <h1>
+                    Build and use a tool to <span class="gradient-text">solve</span> the <span class="gradient-text">problem.</span> 🚀
+                </h1>
+                <p class="text-lg">
+                    Start working on projects with a 
+                    <code class="hi-gradient">simple</code> mission and 
+                    <strong class="text-contrast">build awesome web applications.</strong>
+                </p>
+                <p class="hero-buttons">
+                    <a class="btn btn-blue-outline" href="mailto:map@maplyml.com">Connect Me</a>
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="./img/map-logo-cam.png" alt="Map Logo Cambodia">
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="section-skills">
+            <h1 class="text-center home-heading">Skills</h1>
+            <div class="flex-container">
+                <div class="card-skills">
+                    <h3>Design</h3>
+                    <p><i class="fa-brands fa-figma"></i>   Figma</p>
+                </div>
+                <div class="card-skills">
+                    <h3>Front End</h3>
+                    <p><i class="fa-brands fa-html5"></i> HTML, 
+                        <i class="fa-brands fa-css3-alt"></i> CSS, 
+                        <i class="fa-brands fa-square-js"></i> JavaScript</p>
+                    <h3>Back End</h3>
+                    <p><i class="fa-brands fa-python"></i> Python</p>
+                </div>
+                <div class="card-skills">
+                    <h3>Framework</h3>
+                    <p><img src="img/brand-django.svg" alt="Django Logo" style="width: 20px;"> Django</p>
+                </div>
+            </div>
+        </section>
+        <section id="section-projects">
+            <h1 class="text-center home-heading"> Projects</h1>
+            <div class="flex-container">
+                <div class="card-projects">
+                    <h3>Technical Document</h3>
+                    <a href="technical-document.html">
+                        <img src="img/projects/technical-document.png" alt="">
+                    </a>
+                </div>
+                <div class="card-projects">
+                    <h3>Gmail Login</h3>
+                    <a href="form-login.html">
+                        <img src="img/projects/gmail-login.png" alt="">
+                    </a>
+                </div>
+                <div class="card-projects">
+                    <h3>Tecnical Document</h3>
+                    <a href="technical-document.html">
+                        <img src="img/projects/technical-document.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section id="section-mission">
+            <h1 class="text-center home-heading">Mission</h1>
+            <div class="card-mission">
+                <div class="card-image">
+                    <img src="./img/mission.png" alt="Mission Image">
+                </div>
+                <div class="text-desc-mission">
+                    <h1><span class="gradient-text">Code for fun <br> Code for meaning</span></h1>
+                    <h1><span class="gradient-text">Build them and use them to solve the problem.</span> 🚀</h1> 
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="section-about">
+            <h1 class="text-center home-heading">About</h1>
+            <div class="card-about">
+                <div class="card-profile">
+                    <img src="./img/profile-dev.PNG" alt="Profile Picture">
+                </div>
+                <div class="social-connect-icon">
+                    <a href="https://github.com/maplystudent" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/maply/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://x.com/maplystudent" target="_blank"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+                </div>
+                <div class="text-desc-profile">
+                    <p>👋 Hi, I’m <strong>Map Ly</strong>. I embrace learning from mistakes and believe in continuous improvement. 💞</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="section-footer">
+            <p> &#169;2025 <br>
+                Created with <i class="fa-brands fa-html5"> HTML</i>, 
+                <i class="fa-brands fa-css3-alt"> CSS</i>, and 
+                <i class="fa-brands fa-square-js"> JavaScript</i>.
+            </p>
+        </footer>
+    </main>
+
+    <script src="./js/themes-btn.js" defer></script>
+</body>
+</html>
